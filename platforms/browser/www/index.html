@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	<title>Easy Travel</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" data-theme="b">
+    
+    <div data-role="panel" id="menuPanel" data-position="right" data-display="overlay" data-position-fixed="true">
+         <ul data-role="listview">
+             <li data-icon="home"><a href="#">Home</a></li>
+             <li data-icon="shop"><a href="#">Packages</a></li>
+             <li data-icon="location"><a href="#">Destinations</a></li>
+             <li data-icon="phone"><a href="#">Contact</a></li>
+        </ul>
+    </div> 
+
+	<div data-role="header">
+        <h1><img src="img/logo.png"/></h1>
+        <a href="#menuPanel" data-role="button" data-icon="bars" data-iconpos="notext" class="ui-btn-right">Menu</a>
+	</div><!-- /header -->
+
+	<div data-role="content">	
+        
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+</body>
+</html>
